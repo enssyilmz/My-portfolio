@@ -13,13 +13,6 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-.skills{
-    background: url(/images/bg2.jpg) rgba(0,0,0,0.3);
-    background-blend-mode: multiply;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 .keal{
     background: url(/images/keal.jpg) rgba(0,0,0,0.3);
     background-blend-mode: multiply;
@@ -69,17 +62,28 @@
     transform: scale(1.02);
     transition-duration: 500ms;
 }
+.contact{
+    background: url(/images/contact.jpg) rgba(0,0,0,0.3);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .container{
     transition-duration: 500ms;
 }
 .bip{
     font-weight: bold;
 }
-.about-item,.information-item{
+.about-item,.information-item,
+.c-item,.cpp-item,.csharp-item,.java-item,
+.html-item,.css-item,.boot-item,.php-item,.skills{
     background-color: #212529;
     transition-duration: 500ms;
 }
-.about-item:hover,.information-item:hover{
+.about-item:hover,.information-item:hover,
+.c-item:hover,.cpp-item:hover,.csharp-item:hover,.java-item:hover,
+.html-item:hover,.css-item:hover,.boot-item:hover,.php-item:hover{
     transform: translateY(-10px);
     transition-duration: 500ms;
     color: black;
