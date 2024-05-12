@@ -26,6 +26,14 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    transition-duration: 500ms;
+}
+.keal:hover{
+    background: url(/images/keal_onhover.jpg) rgba(0,0,0,0.3);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .ktu{
     background: url(/images/ktu.png) rgba(0,0,0,0.3);
@@ -33,9 +41,25 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    transition-duration: 500ms;
+}
+.ktu:hover{
+    background: url(/images/ktu_onhover.jpg) rgba(0,0,0,0.3);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .zbeu{
     background: url(/images/zbeu.jpg) rgba(0,0,0,0.3);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition-duration: 500ms;
+}
+.zbeu:hover{
+    background: url(/images/zbeu_onhover.jpg) rgba(0,0,0,0.3);
     background-blend-mode: multiply;
     background-position: center;
     background-size: cover;
@@ -60,6 +84,13 @@
     transition-duration: 500ms;
     color: black;
     background-color: white;
+}
+.nav-link{
+    transition: transform 500ms ease;
+}
+.nav-link:hover{
+    transform: translateY(-5px);
+    transition: transform 500ms ease;
 }
 
 
