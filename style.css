@@ -41,11 +41,25 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.zbeu:hover,.ktu:hover,.keal:hover{
+    transform: scale(1.02);
+    transition-duration: 500ms;
+}
 .container{
     transition-duration: 500ms;
 }
 .bip{
     font-weight: bold;
+}
+.about-item,.information-item{
+    background-color: #212529;
+    transition-duration: 500ms;
+}
+.about-item:hover,.information-item:hover{
+    transform: translateY(-10px);
+    transition-duration: 500ms;
+    color: black;
+    background-color: white;
 }
 
 
